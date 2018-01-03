@@ -1,0 +1,127 @@
+*{
+  margin-top: 0px;
+  background-color: black;
+  color: seashell;
+  font-size: 22px;
+  font-family: Helvetica;
+  opacity: 0.9;
+}
+h1, h2{
+  font-size: 30px;
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  z-index: 10;
+  margin: 0px;
+  border-bottom: 1px solid seashell;
+}
+nav img{
+  padding-left: 10px;
+  margin-top: 5px;
+}
+nav img, ul{
+  display: inline-block;
+  text-decoration: underline;
+}
+nav ul{
+  width: 80%;
+  text-align: right;
+}
+nav li{
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.mission{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-top: 69px;
+  text-align: center;
+  height: 700px;
+  width: 1200px;
+  margin: 0px 10%;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% 700px;
+}
+.mission h2, h4{
+  background-color: black;
+  width: 100%;
+  z-index: 8;
+  margin: 0px;
+  padding: 5px;
+}
+
+.month{
+  width: 1000px;
+  padding-top: 10px;
+  text-align: center;
+  margin: 15px 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.month h3{
+  display: inline-block;
+  margin: 0px 60px;
+}
+.month img{
+  margin: 0px;
+  padding: 10px;
+}
+
+.locations{
+  padding-top: 10px;
+  height: 500px;
+  width: 1200px;
+  margin: 15px 7.5%;
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-size: 100% 135%;
+}
+
+.locations div{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 20px 20px;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  opacity: 1;
+  font-size: 18px;
+}
+.locations h1{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  background: rgba(0, 0, 0, 0)
+}
+.locations h3{
+  margin-top: 5px;
+  padding-top: 0px;
+  margin-bottom: 20px;
+}
+.locations h4{
+  width: 75%;
+  font-size: 18px;
+  margin: 10px 0px;
+}
+
+.contact{
+  height: 200px;
+  text-align: center;
+}
+
+.end{
+  margin-left: 20px;
+  text-align: left;
+}
